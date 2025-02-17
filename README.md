@@ -10,18 +10,18 @@ Predict if cryptocurrencies are affected by 24-hour or 7-day price changes.
 3. Optimize clusters with Principal Component Analysis (PCA) and use this new dataframe to find the best value for k using the elbow method, and cluster cryptocurrencies with K-means.
 4. Create composite plots of the elbow line graphs and scatter plots.
 
-## Results
-### Composite Plot: KMeans + PCA Elbow Plots
+# Results
+## Composite Plot: KMeans + PCA Elbow Plots
 
 ![Composite Elbow Plots](Images/elbow_plot.png)
 
 _The elbow plots indicate that **the best value for k is 4** whether using the original scaled data or the optimized PCA data._
 
-### Composite Plot: KMeans and PCA Scatter Plots
+## Composite Plot: KMeans and PCA Scatter Plots
 
 ![Composite Scatter Plots](Images/scatter_plot.png)
 
-## Analysis
+# Analysis
 
 - The scatter plots indicate that about 90% of the cryptocurrencies fall into two clusters (0 and 2) with two outlier clusters (1, 3) that contain one cryptocurrency each.
   
