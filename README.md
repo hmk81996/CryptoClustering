@@ -15,7 +15,7 @@ Predict if cryptocurrencies are affected by 24-hour or 7-day price changes.
 
 ![Composite Elbow Plots](Images/elbow_plot.png)
 
-_The elbow plots indicate that **the best value for k is 4** whether using the original scaled data and the PCA data._
+_The elbow plots indicate that **the best value for k is 4** whether using the original scaled data or the optimized PCA data._
 
 ### Composite Plot: KMeans and PCA Scatter Plots
 
