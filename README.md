@@ -32,7 +32,7 @@ _The elbow plots indicate that **the best value for k is 4** whether using the o
       - array([0.3719856 , 0.34700813, 0.17603793])
         
 - Cluster 0 (blue): The KMeans scatter plot clearly shows that at *24 hours*, cyrptocurrencies in cluster 0 are *quite volatile* with a price change percentage between -1.6 and 1.9 but become *slightly less volatile* at the *7 day* mark (price change percentage lies between -1.7 and .4).
-- 
+
 - Cluster 2 (yellow): The KMeans scatter plot clearly shows that at *24 hours*, cyrptocurrencies in cluster 2 are *somewhat stable* with a price change percentage between -.25 and 1.2 but become *more volatile* at the *7 day* mark (price change percentage lies between .35 and 2.6).
 
 - **Question:** After visually analyzing the cluster analysis results, what is the impact of using fewer features to cluster the data using K-Means?
